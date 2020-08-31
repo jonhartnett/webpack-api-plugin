@@ -1,0 +1,28 @@
+{
+    "name": "webpack-api-plugin-electron-ipc-renderer-client",
+    "version": "0.1.0",
+    "description": "WIP",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jonhartnett/webpack-api-loader.git",
+        "directory": "packages/webpack-api-plugin-electron-ipc-renderer-client"
+    },
+    "author": {
+        "name": "Jonathan Hartnett"
+    },
+    "module": "dist/index.js",
+    "scripts": {
+        "watch": "babel src --out-dir dist --source-maps --watch",
+        "build": "babel src --out-dir dist --source-maps"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.10.5",
+        "@babel/core": "^7.11.1",
+        "@babel/preset-env": "^7.11.0"
+    },
+    "files": [
+        "/dist/**/*"
+    ],
+    "sideEffects": false
+}

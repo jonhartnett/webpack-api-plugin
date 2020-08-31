@@ -1,0 +1,30 @@
+{
+    "name": "webpack-api-plugin-server-utils",
+    "version": "0.1.0",
+    "description": "WIP",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jonhartnett/webpack-api-loader.git",
+        "directory": "packages/webpack-api-plugin-server-utils"
+    },
+    "author": {
+        "name": "Jonathan Hartnett"
+    },
+    "main": "dist/index.js",
+    "scripts": {
+        "watch": "babel src --out-dir dist --source-maps --watch",
+        "build": "babel src --out-dir dist --source-maps"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.10.5",
+        "@babel/core": "^7.11.1",
+        "@babel/plugin-proposal-class-properties": "^7.10.4",
+        "@babel/plugin-proposal-function-bind": "^7.10.5",
+        "@babel/preset-env": "^7.11.0"
+    },
+    "files": [
+        "/dist/**/*"
+    ],
+    "sideEffects": false
+}

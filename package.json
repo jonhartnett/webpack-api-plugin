@@ -1,0 +1,9 @@
+{
+    "name": "webpack-api-plugin-workspace",
+    "version": "0.0.1",
+    "private": true,
+    "repository": "github:jonhartnett/webpack-api-plugin",
+    "workspaces": [
+        "packages/*"
+    ]
+}
